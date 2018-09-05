@@ -12,6 +12,10 @@
     text-shadow: 0 5px 10px rgba(0,0,0,1);
     mix-blend-mode: overlay;
 }
+#body{
+    flex: 3;
+    color: white;
+}
 #nav{
     background-color: rgb(90,90,90);
     mix-blend-mode: overlay;
@@ -19,10 +23,6 @@
     font-style: none;
     padding: none;
     flex: 1;
-}
-#body{
-    flex: 3;
-    color: white;
 }
 #footer{
     background-color: rgb(140,140,140);
