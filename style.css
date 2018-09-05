@@ -21,6 +21,7 @@
     background-color: rgb(140,140,140);
     mix-blend-mode: overlay;
     color: white;
+    text-align: right;
 }
 #body{
     display: flex;
