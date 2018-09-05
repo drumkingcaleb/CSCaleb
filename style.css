@@ -12,6 +12,7 @@
     text-shadow: 0 5px 10px rgba(0,0,0,1);
     mix-blend-mode: overlay;
 }
-#nav,footer{
+#nav,#footer{
     background-color: gray;
+    mix-blend-mode: overlay;
 }
