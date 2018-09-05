@@ -15,7 +15,7 @@
 #nav{
     background-color: rgb(90,90,90);
     mix-blend-mode: overlay;
-    flex: 1;
+    flex: 5;
     padding-left: 5%;
 }
 #main{
@@ -34,7 +34,6 @@ ul {
 }
 #body{
     display: flex;
-    flex: 1;
     color: white;
     height: 80%;
 }
