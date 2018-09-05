@@ -18,6 +18,11 @@
     color: white;
     font-style: none;
     padding: none;
+    flex: 1;
+}
+#body{
+    flex: 3;
+    color: white;
 }
 #footer{
     background-color: rgb(140,140,140);
