@@ -1,5 +1,5 @@
 body{
     background: url(evan-kirby-226482-unsplash.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
