@@ -17,3 +17,6 @@
     mix-blend-mode: overlay;
     color: white;
 }
+#body{
+    display: flex;
+}
