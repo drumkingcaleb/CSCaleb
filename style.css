@@ -1,5 +1,5 @@
 #page{
-    background: url(math-83287-unsplash.jpg);
+    background: url(background/math-83287-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -15,7 +15,7 @@
 #nav{
     background-color: rgb(90,90,90);
     mix-blend-mode: overlay;
-    flex: 5;
+    flex: 1;
     padding-left: 5%;
 }
 #main{
