@@ -1,5 +1,4 @@
-#page{
-    overflow-y:scroll;   
+#page{  
     background: url(background/math-83287-unsplash.jpg);
     background-size: cover;
     color: white;
@@ -26,6 +25,7 @@
     flex: 1;
 }
 #main{
+    overflow-y:scroll; 
     position:absolute;
     top: 5%;
     left:0%;
