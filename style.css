@@ -2,6 +2,7 @@
     background: url(background/math-83287-unsplash.jpg);
     background-size: cover;
     color: white;
+    height: 200%;
     background-repeat: no-repeat;
 }
 #header{
