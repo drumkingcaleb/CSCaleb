@@ -1,9 +1,4 @@
 #page{
-    position:absolute;
-    top: 5%;
-    left:0%;
-    right:0%;
-    bottom:0%;
     overflow-y:scroll;   
     background: url(background/math-83287-unsplash.jpg);
     background-size: cover;
@@ -31,6 +26,11 @@
     flex: 1;
 }
 #main{
+    position:absolute;
+    top: 5%;
+    left:0%;
+    right:0%;
+    bottom:0%;
     flex: 5;
 }
 ul ,a{
