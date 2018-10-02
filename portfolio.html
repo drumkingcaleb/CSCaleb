@@ -7,22 +7,24 @@
         
             <div id="header">
                 <h1>Test Page</h1>
-                <button type="button" id="myBtn" onclick="myFunction()">Split screen</button>
-
-                <script>
-                    var click = 0;
-                function myFunction() {
-                    if(click==0){
-                        document.getElementById("left").style.width = "50%";
-                    }else{
-                        document.getElementById("left").style.width = "100%";
-                    }
-                
-                }
-                </script>
             </div>
             <div id="body">
                 <div id="left">
+                        <button type="button" id="myBtn" onclick="myFunction()">Split screen</button>
+
+                        <script>
+                            var click = 0;
+                        function myFunction() {
+                            if(click==0){
+                                document.getElementById("left").style.width = "50%";
+                                click++;
+                            }else{
+                                document.getElementById("left").style.width = "100%";
+                                click=0;
+                            }
+                        
+                        }
+                        </script>
                 Left
                 </div>
                 <div id="right">
