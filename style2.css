@@ -25,9 +25,11 @@
     flex: 1;
 }
 #left{
+    padding: 2%;
     width: 50%;
 }
 #right{
+    padding: 2%;
     width: 0%;
     overflow: hidden;
 }
