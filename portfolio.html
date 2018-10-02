@@ -14,7 +14,6 @@
 
                         <script>
                             var click = 0;
-                            var right = document.getElementById("right");
                         function myFunction() {
                             /*if(click==0){
                                 document.getElementById("left").style.width = "50%";
@@ -23,14 +22,8 @@
                                 document.getElementById("left").style.width = "100%";
                                 click=0;
                             }*/
-                            click = 0;
-                            if(click==0){
-                                right.style.width = "50%";
-                                click++;
-                            }else{
-                                right.style.width ="0%";
-                                click=0;
-                            }
+                            var right = document.getElementById("right");
+                            right.style.width = "10%";
                         }
                         </script>
                 Left
