@@ -39,7 +39,7 @@ height: 100%;
     overflow: hidden;
     color: black;
     position: absolute;
-    right;
+    right:0%;
 }
 #footer{
     background-color: rgb(140,140,140);
