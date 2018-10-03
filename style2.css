@@ -44,6 +44,8 @@ height: 100%;
 #footer{
     color: BEF243;
     text-align: right;
+    position: absolute;
+    bottom: 0%;
 }
 #body{
     display: flex;
