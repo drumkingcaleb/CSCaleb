@@ -1,51 +1,34 @@
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style2.css"/>
-    </head>
-    <body>
-        <div id="page">
-        
-            <div id="header">
-                <h1>Test Page</h1>
-                <p>Click on the Menu Icon to transform it to "X":</p>
-                <div class="container" onclick="myFunction(this)">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-                </div>
-                <script>
-                function myFunction(x) {
-                    x.classList.toggle("change");
-                }
-                </script>
-            </div>
-            <div id="body">
-                <div id="left">
-                        <button type="button" id="myBtn" onclick="myFunction()">Split screen</button>
-
-                        <script>
-                            var click = 0;
-                        function myFunction() {
-                            if(click==0){
-                            var right = document.getElementById("right");
-                            right.style.width = "10%";
-                            click=2;
-                            }else{
-                                var right = document.getElementById("right");
-                                right.style.width = "0%";
-                                click=0;   
-                            }
-                        }
-                        </script>
-                Left
-                </div>
-                <div id="right">
-                    Right
-                </div>
-            </div>
-            <div id="footer">
-                Copyright info
-            </div>
-        </div>
-    </body>
-</html>
+<!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
+<nav role="navigation">
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+      
+      <!--
+      Some spans to act as a hamburger.
+      
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+      <span></span>
+      <span></span>
+      <span></span>
+      
+      <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+      <ul id="menu">
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Info</li></a>
+        <a href="#"><li>Contact</li></a>
+        <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+      </ul>
+    </div>
+  </nav>
