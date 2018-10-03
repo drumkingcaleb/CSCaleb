@@ -1,5 +1,9 @@
 #page{  
 background-color: beige;
+background: url(background/math-83287-unsplash.jpg);
+background-size: cover;
+color: white;
+height: 100%;
 }
 #header{
     height:7%;
@@ -22,15 +26,13 @@ background-color: beige;
     flex: 1;
 }
 #left{
-    background: url(background/math-83287-unsplash.jpg);
-    background-size: cover;
-    color: white;
     height: 100%;
     background-repeat: no-repeat;
     padding-top: 3%;
     width: 100%;
 }
 #right{
+    background-color: white;
     padding-top: 3%;
     height: 100%;
     width: 0%;
