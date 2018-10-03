@@ -1,5 +1,6 @@
 #page{  
 background-color: beige;
+height: 100;
 }
 #header{
     height:7%;
@@ -46,5 +47,5 @@ background-color: beige;
 #body{
     display: flex;
     color: white;
-    height: 80%;
+    height: 100%;
 }
