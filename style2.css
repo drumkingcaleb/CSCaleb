@@ -42,9 +42,7 @@ height: 100%;
     right:0%;
 }
 #footer{
-    background-color: rgb(140,140,140);
-    mix-blend-mode: overlay;
-    color: white;
+    color: BEF243;
     text-align: right;
 }
 #body{
