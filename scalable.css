@@ -1,0 +1,64 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { #page{  
+    background-color: beige;
+    background: url(background/math-83287-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    height: 100%;
+    }
+    #header{
+        font-size-adjust: inherit;
+        font-size: 75%;
+        height:7%;
+        text-align: center;
+        background-color: 666699;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 0 5px 10px rgba(0,0,0,1);
+    }
+    
+    #nav{
+        margin: 0;
+        padding: 0;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 0 5px 10px rgba(0,0,0,1);
+        mix-blend-mode: overlay;
+        flex: 1;
+    }
+    #left{
+        transition: .4s;
+        height: 100%;
+        background-repeat: no-repeat;
+        padding-top: 3%;
+        width: 100%;
+        color: white;
+    }
+    #right{
+        transition: .4s;
+        background-color: white;
+        padding-top: 3%;
+        height: 100%;
+        width: 0%;
+        overflow: hidden;
+        color: black;
+        position: absolute;
+        right:0%;
+    }
+    #footer{
+        transition: .4s;
+        color: BEF243;
+        position: absolute;
+        bottom: 0%;
+        right: 2%;
+    }
+    #body{
+        display: flex;
+        color: 3B4043;
+        height: 85%;
+    }
+    }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
