@@ -35,6 +35,7 @@ background-color: beige;
     height: 100%;
     width: 0%;
     overflow: hidden;
+    color: black;
 }
 #footer{
     background-color: rgb(140,140,140);
