@@ -7,8 +7,8 @@
 }
 
 .bar1, .bar2, .bar3 {
-    width: 75%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     background-color: BEF243;
     margin: 6% 0;
     transition: 0.4s;
