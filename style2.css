@@ -26,7 +26,7 @@ height: 100%;
     flex: 1;
 }
 #left{
-    height: 85%;
+    height: 100%;
     background-repeat: no-repeat;
     padding-top: 3%;
     width: 100%;
@@ -34,7 +34,7 @@ height: 100%;
 #right{
     background-color: white;
     padding-top: 3%;
-    height: 85%;
+    height: 100%;
     width: 0%;
     overflow: hidden;
     color: black;
@@ -43,10 +43,7 @@ height: 100%;
 }
 #footer{
     color: BEF243;
-    position: absolute;
-    bottom: 0%;
     text-align: right;
-
 }
 #body{
     display: flex;
