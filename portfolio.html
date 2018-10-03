@@ -14,14 +14,29 @@
                           </div>
                           
                           <script>
+                              var click=0;
                           function myFunction(x) {
                               x.classList.toggle("change");
+                              if(click==0){
+                            var right = document.getElementById("right");
+                            right.style.width = "10%";
+                            var left = document.getElementById("left");
+                            left.style.width = "50%";
+                            click=2;
+                            }else{
+                                var right = document.getElementById("right");
+                                right.style.width = "0%";
+                                var left = document.getElementById("left");
+                                left.style.width = "100%";
+                                click=0;   
+                            }
                           }
                           </script>
                 <h1>Test Page</h1>
             </div>
             <div id="body">
                 <div id="left">
+                    <button type="button" id="myBtn" onclick="myFunction()">Split screen</button>
                 Left
                 </div>
                 <div id="right">
