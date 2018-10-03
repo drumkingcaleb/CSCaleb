@@ -15,8 +15,8 @@
 }
 
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-15px, 6px);
+    transform: rotate(-45deg) translate(-16px, 1px);
 }
 
 .change .bar2 {opacity: 0;}
