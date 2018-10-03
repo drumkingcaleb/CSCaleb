@@ -43,6 +43,8 @@ height: 100%;
 }
 #footer{
     color: BEF243;
+    position: absolute;
+    bottom: 0%;
     text-align: right;
 }
 #body{
