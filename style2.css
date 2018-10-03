@@ -45,7 +45,7 @@ height: 100%;
     color: BEF243;
     position: absolute;
     bottom: 0%;
-    text-align: right;
+    right: 0%;
 }
 #body{
     display: flex;
