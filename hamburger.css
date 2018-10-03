@@ -1,7 +1,9 @@
 .container {
     display: inline-block;
     cursor: pointer;
-    align-self: right;
+    position: absolute;
+    right: 1%;
+    top: 5%;
 }
 
 .bar1, .bar2, .bar3 {
