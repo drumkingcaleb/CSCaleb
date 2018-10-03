@@ -26,7 +26,7 @@ height: 100%;
     flex: 1;
 }
 #left{
-    transition: .2s;
+    transition: .4s;
     height: 100%;
     background-repeat: no-repeat;
     padding-top: 3%;
@@ -34,7 +34,7 @@ height: 100%;
     color: white;
 }
 #right{
-    transition: .2s;
+    transition: .4s;
     background-color: white;
     padding-top: 3%;
     height: 100%;
@@ -45,7 +45,7 @@ height: 100%;
     right:0%;
 }
 #footer{
-    transition: .2s;
+    transition: .4s;
     color: BEF243;
     position: absolute;
     bottom: 0%;
