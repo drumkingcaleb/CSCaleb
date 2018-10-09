@@ -1,15 +1,5 @@
-@media only screen 
-    and (min-device-width : 375px) 
-    and (max-device-width : 667px) 
-    and (width : 667px) 
-    and (height : 375px) 
-    and (orientation : landscape) 
-    and (color : 8)
-    and (device-aspect-ratio : 375/667)
-    and (aspect-ratio : 667/375)
-    and (device-pixel-ratio : 2)
-    and (-webkit-min-device-pixel-ratio : 2)
-{
+/*iPhone 6 Portrait*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { 
     #page{  
         background: url(background/math-83287-unsplash.jpg);
         background-size: cover;
@@ -18,23 +8,14 @@
         background-repeat: no-repeat;
     }
 }
-    @media only screen 
-        and (min-device-width : 375px) 
-        and (max-device-width : 667px) 
-        and (width : 375px) 
-        and (height : 559px) 
-        and (orientation : portrait) 
-        and (color : 8)
-        and (device-aspect-ratio : 375/667)
-        and (aspect-ratio : 375/559)
-        and (device-pixel-ratio : 2)
-        and (-webkit-min-device-pixel-ratio : 2)
-    {
-        #page{  
-            background: url(background/math-83287-unsplash.jpg);
-            background-size: cover;
-            color: orangered;
-            height: 100%;
-            background-repeat: no-repeat;
-        }
+
+/*iPhone 6 landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { 
+    #page{  
+        background: url(background/evan-kirby-226482-unsplash.jpg);
+        background-size: cover;
+        color: white;
+        height: 100%;
+        background-repeat: no-repeat;
     }
+}
