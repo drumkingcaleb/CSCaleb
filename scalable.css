@@ -7,6 +7,52 @@
         height: 100%;
         background-repeat: no-repeat;
     }
+    #header{
+        height:5%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 0 5px 10px rgba(0,0,0,1);
+        mix-blend-mode: overlay;
+    }
+    #nav{
+        margin: 0;
+        padding: 0;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 0 5px 10px rgba(0,0,0,1);
+        mix-blend-mode: overlay;
+        flex: 1;
+    }
+    #main{
+        overflow-y:scroll; 
+        position:absolute;
+        top: 15%;
+        left:10%;
+        right:10%;
+        bottom:15%;
+        flex: 5;
+    }
+    ul ,a{
+        list-style-type: none;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+    #footer{
+        background-color: rgb(140,140,140);
+        mix-blend-mode: overlay;
+        color: white;
+        text-align: right;
+    }
+    #body{
+        display: flex;
+        color: white;
+        height: 80%;
+    }
+    
 }
 
 /*iPhone 6 landscape*/
@@ -18,4 +64,50 @@
         height: 100%;
         background-repeat: no-repeat;
     }
+    #header{
+        height:5%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 0 5px 10px rgba(0,0,0,1);
+        mix-blend-mode: overlay;
+    }
+    #nav{
+        margin: 0;
+        padding: 0;
+        color: white;
+        text-transform: uppercase;
+        text-shadow: 0 5px 10px rgba(0,0,0,1);
+        mix-blend-mode: overlay;
+        flex: 1;
+    }
+    #main{
+        overflow-y:scroll; 
+        position:absolute;
+        top: 15%;
+        left:10%;
+        right:10%;
+        bottom:15%;
+        flex: 5;
+    }
+    ul ,a{
+        list-style-type: none;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+    #footer{
+        background-color: rgb(140,140,140);
+        mix-blend-mode: overlay;
+        color: white;
+        text-align: right;
+    }
+    #body{
+        display: flex;
+        color: white;
+        height: 80%;
+    }
+    
 }
