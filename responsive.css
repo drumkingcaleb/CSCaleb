@@ -125,22 +125,23 @@
     
 }
 #page{  
+    background-color: beige;
     background: url(background/math-83287-unsplash.jpg);
     background-size: cover;
     color: white;
     height: 100%;
-    background-repeat: no-repeat;
 }
 #header{
-    height:5%;
-    margin: 0;
-    padding: 0;
+    font-size-adjust: inherit;
+    font-size: 75%;
+    height:7%;
     text-align: center;
+    background-color: 666699;
     color: white;
     text-transform: uppercase;
     text-shadow: 0 5px 10px rgba(0,0,0,1);
-    mix-blend-mode: overlay;
 }
+
 #nav{
     margin: 0;
     padding: 0;
@@ -150,29 +151,34 @@
     mix-blend-mode: overlay;
     flex: 1;
 }
-#main{
-    overflow-y:scroll; 
-    position:absolute;
-    top: 15%;
-    left:10%;
-    right:10%;
-    bottom:15%;
-    flex: 5;
-}
-ul ,a{
-    list-style-type: none;
+#left{
+    transition: .4s;
+    height: 100%;
+    background-repeat: no-repeat;
+    padding-top: 3%;
+    width: 100%;
     color: white;
-    margin: 0;
-    padding: 0;
+}
+#right{
+    transition: .4s;
+    background-color: white;
+    padding-top: 3%;
+    height: 100%;
+    width: 0%;
+    overflow: hidden;
+    color: black;
+    position: absolute;
+    right:0%;
 }
 #footer{
-    background-color: rgb(140,140,140);
-    mix-blend-mode: overlay;
-    color: white;
-    text-align: right;
+    transition: .4s;
+    color: BEF243;
+    position: absolute;
+    bottom: 0%;
+    right: 2%;
 }
 #body{
     display: flex;
-    color: white;
-    height: 80%;
+    color: 3B4043;
+    height: 85%;
 }
