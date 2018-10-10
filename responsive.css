@@ -65,8 +65,8 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation : landscape) { 
     #page{  
         background-color: beige;
-        background: url(background/evan-kirby-226482-unsplash.jpg);
-        background-size: cover;
+        background: url(background/landscape.jpg);
+        background-size: contain;
         color: white;
         height: 100%;
     }
