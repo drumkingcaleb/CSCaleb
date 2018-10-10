@@ -65,7 +65,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation : landscape) { 
     #page{  
         background-color: beige;
-        background: url(background/landscape.jpg);
+        background: url(background/evan-kirby-226482-unsplash.jpg);
         background-size: cover;
         color: white;
         height: 100%;
@@ -76,7 +76,7 @@
         height:10%;
         text-align: center;
         background-color: 666699;
-        color: rgb(247, 7, 7);
+        color: white;
         text-transform: uppercase;
         text-shadow: 0 5px 10px rgba(0,0,0,1);
     }
@@ -123,67 +123,4 @@
         height: 85%;
     }
     
-}
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-    #page{  
-        background-color: beige;
-        background: url(background/math-83287-unsplash.jpg);
-        background-size: cover;
-        color: white;
-        height: 100%;
-    }
-    #header{
-        font-size-adjust: inherit;
-        font-size: 75%;
-        height:7%;
-        text-align: center;
-        background-color: 666699;
-        color: white;
-        text-transform: uppercase;
-        text-shadow: 0 5px 10px rgba(0,0,0,1);
-    }
-
-    #nav{
-        margin: 0;
-        padding: 0;
-        color: white;
-        text-transform: uppercase;
-        text-shadow: 0 5px 10px rgba(0,0,0,1);
-        mix-blend-mode: overlay;
-        flex: 1;
-    }
-    #left{
-        transition: .4s;
-        height: 100%;
-        background-repeat: no-repeat;
-        padding-top: 3%;
-        width: 100%;
-        color: white;
-    }
-    #right{
-        transition: .4s;
-        background-color: white;
-        padding-top: 3%;
-        height: 100%;
-        width: 0%;
-        overflow: hidden;
-        color: black;
-        position: absolute;
-        right:0%;
-    }
-    #footer{
-        transition: .4s;
-        color: BEF243;
-        position: absolute;
-        bottom: 0%;
-        right: 2%;
-    }
-    #body{
-        display: flex;
-        color: 3B4043;
-        height: 85%;
-    }
 }
