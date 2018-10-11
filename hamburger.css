@@ -2,8 +2,8 @@
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    right: 3%;
-    top: 3%;
+    right: 5%;
+    top: 5%;
 }
 .container:hover .bar2 {
     width: 35px;
