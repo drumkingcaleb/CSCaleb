@@ -4,12 +4,13 @@
         text-decoration: none;
         color: black;
         margin: 2% 0;
+        font-size: 150%;
     }
     a:hover{
         list-style-type: none;
         text-decoration: none;
         color: red;
-        font-size:150%;
+        font-size:200%;
         transition: 1s;
     }
     #page{  
