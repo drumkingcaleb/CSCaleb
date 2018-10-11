@@ -14,7 +14,7 @@
         text-decoration: none;
         color: red;
         margin: 2% 0%;
-        font-size:var(--size)*1.25;
+        font-size:var(--size)*1.25%;
         transition: 1s;
     }
     #page{  
