@@ -1,4 +1,10 @@
 @media (max-width: 1440px){
+    ul ,a{
+        list-style-type: none;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
     #page{  
         background-color: beige;
         background: url(background/math-83287-unsplash.jpg);
@@ -62,7 +68,13 @@
 @media only screen 
 and (min-device-width: 320px) 
 and (max-device-width: 667px) 
-and (orientation : portrait) { 
+and (orientation : portrait) {
+    ul ,a{
+        list-style-type: none;
+        color: white;
+        margin: 0;
+        padding: 0;
+    } 
     #page{  
         background-color: beige;
         background: url(background/evan-kirby-226482-unsplash.jpg);
@@ -128,6 +140,12 @@ and (orientation : portrait) {
 and (min-device-width: 320px) 
 and (max-device-width: 667px) 
 and (orientation : landscape) { 
+    ul ,a{
+        list-style-type: none;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
     #page{  
         background-color: beige;
         background: url(background/landscape.jpg);
