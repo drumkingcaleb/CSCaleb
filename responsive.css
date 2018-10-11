@@ -260,9 +260,8 @@ and (orientation : landscape) {
         height: 85%;
     }      
 }
-@media screen
-and (min-device-width: 667px) 
-and (max-device-width: 1281px){
+
+@media (min-width: 1025px) and (max-width: 1280px){
     #page{  
         background-color: beige;
         background: url(background/math-83287-unsplash.jpg);
