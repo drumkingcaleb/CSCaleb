@@ -64,7 +64,7 @@ and (orientation : landscape) {
     }
     
 }
-@media (min-height: 560px){
+@media (max-width: 1440px){
     #page{  
         background-color: beige;
         background: url(background/math-83287-unsplash.jpg);
