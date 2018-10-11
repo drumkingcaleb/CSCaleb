@@ -142,7 +142,7 @@ and (max-device-width: 667px)
 and (orientation : landscape) { 
     ul ,a{
         list-style-type: none;
-        color: white;
+        color: blue;
         margin: 0;
         padding: 0;
     }
