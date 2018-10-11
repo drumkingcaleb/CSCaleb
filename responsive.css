@@ -261,7 +261,7 @@ and (orientation : landscape) {
     }      
 }
 @media screen
-and (min-device-width: 100px) 
+and (min-device-width: 667px) 
 and (max-device-width: 1281px){
     #page{  
         background-color: beige;
