@@ -15,7 +15,7 @@
         color: red;
         margin: 2% 0%;
         font-size:200%;
-        transition: 1s;
+        transition: .5s;
     }
     #page{  
         background-color: beige;
