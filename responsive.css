@@ -1,12 +1,6 @@
 @media (max-width: 1440px){
-    ul ,a{
-        list-style-type: none;
-        color: blue;
-        margin: 10;
-        padding: 10;
-    }
-    li:hover{
-        color: Black;
+    a{
+        text-decoration: none;
     }
     #page{  
         background-color: beige;
