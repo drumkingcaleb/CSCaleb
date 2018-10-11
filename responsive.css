@@ -129,7 +129,9 @@ and (orientation : landscape) {
     }
     
 }
-@media (max-width: 1000){
+@media screen 
+and(max-width: 1000)
+and(min-width: 667){
     #header{
         font-size-adjust: inherit;
         font-size: 200%;
