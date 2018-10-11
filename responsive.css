@@ -2,6 +2,10 @@
     a, ul{
         text-decoration: none;
     }
+    a:hover{
+        text-decoration: none;
+        color: red;
+    }
     #page{  
         background-color: beige;
         background: url(background/math-83287-unsplash.jpg);
