@@ -1,9 +1,12 @@
 @media (max-width: 1440px){
     ul ,a{
         list-style-type: none;
-        color: white;
+        color: blue;
         margin: 0;
         padding: 0;
+    }
+    li:hover{
+        color: Black;
     }
     #page{  
         background-color: beige;
@@ -71,7 +74,7 @@ and (max-device-width: 667px)
 and (orientation : portrait) {
     ul ,a{
         list-style-type: none;
-        color: white;
+        color: blue;
         margin: 0;
         padding: 0;
     } 
