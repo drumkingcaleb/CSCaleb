@@ -1,5 +1,8 @@
 /*iPhone 6 Portrait*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation : portrait) { 
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 667px) 
+and (orientation : portrait) { 
     #page{  
         background-color: beige;
         background: url(background/evan-kirby-226482-unsplash.jpg);
@@ -62,7 +65,10 @@
 }
 
 /*iPhone 6 landscape*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (orientation : landscape) { 
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 667px) 
+and (orientation : landscape) { 
     #page{  
         background-color: beige;
         background: url(background/landscape.jpg);
@@ -254,7 +260,9 @@
         height: 85%;
     }      
 }
-@media (min-width: 100px) {
+@media screen
+and (min-device-width: 100px) 
+and (max-device-width: 1281px){
     #page{  
         background-color: beige;
         background: url(background/math-83287-unsplash.jpg);
