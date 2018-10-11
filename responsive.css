@@ -1,10 +1,16 @@
 @media (max-width: 1440px){
     a, ul{
+        list-style-type: none;
         text-decoration: none;
+        color: black;
+        font-size: 5%;
     }
     a:hover{
+        list-style-type: none;
         text-decoration: none;
         color: red;
+        font-size:15%;
+        transition: 1s;
     }
     #page{  
         background-color: beige;
