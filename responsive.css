@@ -63,7 +63,6 @@ and (orientation : portrait) {
         height: 85%;
     }    
 }
-
 /*iPhone 6 landscape*/
 @media only screen 
 and (min-device-width: 320px) 
@@ -130,7 +129,7 @@ and (orientation : landscape) {
     }
     
 }
-@media screen and (max-device-width: 1000){
+@media (max-width: 1000){
     #header{
         font-size-adjust: inherit;
         font-size: 200%;
