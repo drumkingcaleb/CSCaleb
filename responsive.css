@@ -7,14 +7,14 @@
         text-decoration: none;
         color: black;
         margin: 2% 0;
-        font-size: var(--size)*1%;
+        font-size: 150%;
     }
     a:hover{
         list-style-type: none;
         text-decoration: none;
         color: red;
         margin: 2% 0%;
-        font-size:var(--size)*1.25%;
+        font-size:200%;
         transition: 1s;
     }
     #page{  
