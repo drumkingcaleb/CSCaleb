@@ -254,7 +254,7 @@
         height: 85%;
     }      
 }
-@media (min-width: 1281px) {
+@media (min-width: 100px) {
     #page{  
         background-color: beige;
         background: url(background/math-83287-unsplash.jpg);
