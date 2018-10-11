@@ -2,8 +2,8 @@
     ul ,a{
         list-style-type: none;
         color: blue;
-        margin: 0;
-        padding: 0;
+        margin: 10;
+        padding: 10;
     }
     li:hover{
         color: Black;
