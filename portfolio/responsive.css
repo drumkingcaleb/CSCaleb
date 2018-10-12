@@ -4,7 +4,7 @@
         text-decoration: none;
         color: black;
         margin: 2% 0;
-        font-size: 150%;
+        font-size: 125%;
     }
     img{
         height: 100%;
@@ -21,7 +21,7 @@
         text-decoration: none;
         color: aqua;
         margin: 2% 0%;
-        font-size:200%;
+        font-size:150%;
         transition: .25s;
     }
     #page{  
