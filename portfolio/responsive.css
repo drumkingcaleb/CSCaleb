@@ -87,6 +87,12 @@
 and (min-device-width: 320px) 
 and (max-device-width: 667px) 
 and (orientation : portrait) {
+    ul ,a{
+        list-style-type: none;
+        color: blue;
+        margin: 0;
+        padding: 0;
+    }
     img{
         height: 100%;
     }
@@ -96,11 +102,6 @@ and (orientation : portrait) {
         left:1%;
         top:1%;
         height: 7%;
-    ul ,a{
-        list-style-type: none;
-        color: blue;
-        margin: 0;
-        padding: 0;
     } 
     #page{  
         background-color: beige;
