@@ -139,6 +139,7 @@ and (orientation : portrait) {
         padding-top: 3%;
         width: 100%;
         color: white;
+        font-size: 150%;
     }
     #right{
         transition: .4s;
@@ -211,6 +212,7 @@ and (orientation : landscape) {
         padding-top: 3%;
         width: 100%;
         color: white;
+        font-size:150%;
     }
     #right{
         transition: .4s;
