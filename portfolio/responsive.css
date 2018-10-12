@@ -233,5 +233,15 @@ and (orientation : landscape) {
         color: 3B4043;
         height: 85%;
     }
+    img{
+        height: 100%;
+    }
+    #insta{
+        position: absolute;
+        display:block;
+        left:1%;
+        top:1%;
+        height: 9%;
+    } 
     
 }
