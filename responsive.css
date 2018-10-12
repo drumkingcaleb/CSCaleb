@@ -9,6 +9,12 @@
     img{
         height: 100%;
     }
+    #insta{
+        position: absolute;
+        display:block;
+        left:3%;
+        top:3%;
+    }
     a:hover{
         list-style-type: none;
         text-decoration: none;
