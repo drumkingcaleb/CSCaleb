@@ -227,7 +227,7 @@ and (orientation : landscape) {
         right:0%;
     }
     #footer{
-        font-size: 200%;
+        font-size: 100%;
         transition: .4s;
         color: BEF243;
         position: absolute;
