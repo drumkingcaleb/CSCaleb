@@ -1,0 +1,62 @@
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="hamburger.css"/>
+        <link rel="stylesheet" type="text/css" href="responsive.css"/>
+    </head>
+    <body>
+        <div id="page">
+        
+            <div id="header">
+                    <div class="container" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                          </div>
+                    <div id="insta"><a href="https://www.instagram.com/drumkingcaleb/"><img border="0" src="/images/insta3.png"></a></div>
+                          <script>
+                              var click=0;
+                          function myFunction(x) {
+                              x.classList.toggle("change");
+                              if(click==0){
+                            var right = document.getElementById("right");
+                            right.style.width = "50%";
+                            var left = document.getElementById("left");
+                            left.style.width = "50%";
+                            var footer = document.getElementById("footer");
+                            footer.style.right = "53%";
+                            click=2;
+                            }else{
+                                var right = document.getElementById("right");
+                                right.style.width = "0%";
+                                var left = document.getElementById("left");
+                                left.style.width = "100%";
+                                var footer = document.getElementById("footer");
+                                footer.style.right = "2%";
+                                click=0;   
+                            }
+                          }
+                          </script>
+                <img id="logo" src="images/Logo3.png">
+            </div>
+            <div id="body">
+                <div id="left">
+                Left
+                </div>
+                <div id="right">
+                        <ul>
+                            <li><a href="">About Me</a></li>
+                            <li><a href="">Hobbies/Interests</a></li>
+                            <li><a href="">Skills</a></li>
+                            <li><a href="">Education</a></li>
+                            <li><a href="">Experience</a></li>
+                            <li><a href="">Projects</a></li>
+                            <li><a href="">Contact Information</a></li>
+                        </ul>
+                </div>
+            </div>
+            <div id="footer">
+                &copy; Copyright Caleb Stamper 2018
+            </div>
+        </div>
+    </body>
+</html>
