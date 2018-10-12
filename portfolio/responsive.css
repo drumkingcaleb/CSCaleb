@@ -87,6 +87,15 @@
 and (min-device-width: 320px) 
 and (max-device-width: 667px) 
 and (orientation : portrait) {
+    img{
+        height: 100%;
+    }
+    #insta{
+        position: absolute;
+        display:block;
+        left:1%;
+        top:1%;
+        height: 7%;
     ul ,a{
         list-style-type: none;
         color: blue;
