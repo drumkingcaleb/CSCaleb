@@ -240,8 +240,8 @@ and (orientation : landscape) {
         position: absolute;
         display:block;
         left:1%;
-        top:1%;
-        height: 9%;
+        top:3%;
+        height: 12%;
     } 
     
 }
