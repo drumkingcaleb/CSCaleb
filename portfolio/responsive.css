@@ -216,6 +216,7 @@ and (orientation : landscape) {
         height: 100%;
         width: 0%;
         overflow: hidden;
+        display: block;
         color: black;
         position: absolute;
         right:0%;
