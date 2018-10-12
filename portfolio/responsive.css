@@ -73,7 +73,7 @@
     }
     #footer{
         transition: .4s;
-        color: rgb(60, 255, 177);
+        color: BEF243;
         position: absolute;
         bottom: 2%;
         right: 2%;
@@ -155,7 +155,7 @@ and (orientation : portrait) {
     #footer{
         font-size: 200%;
         transition: .4s;
-        color: rgb(60, 255, 177);
+        color: BEF243;
         position: absolute;
         bottom: 1%;
         right: 2%;
