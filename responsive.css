@@ -13,8 +13,8 @@
         position: absolute;
         display:block;
         left:1%;
-        top:1%;
-        height: 9%;
+        top:2%;
+        height: 8%;
     }
     a:hover{
         list-style-type: none;
