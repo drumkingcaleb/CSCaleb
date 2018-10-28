@@ -1,6 +1,3 @@
-console.log(18);
-console.log(260);
-
 //opening line
 /*
 Caleb Stamper
@@ -18,3 +15,10 @@ console.log('hello '+'world');
 
 console.log('Teaching the world how to code'.length);
 console.log('Codeacademy'.toUpperCase());
+console.log(' Remove whitespace '.trim());
+
+var output=Math.random()*100;
+console.log(output);
+console.log(Math.floor(output));
+console.log(Math.fround(43.8));
+console.log(Number.isInteger(2017));
